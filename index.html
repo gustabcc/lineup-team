@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lineup Team</title>
+</head>
+<body>
+    <div class="container">
+        <div id="addPlayer">
+            <h2 id="titleAdd">Add Player</h2>
+            <label for="name">Player Name:</label>
+            <input type="text" name="name" id="name" placeholder="Player Name">
+
+            <label for="positon">Player Position:</label>
+            <input type="text" name="position" id="position" placeholder="Player Position">
+
+            <label for="shirt">Shirt Number:</label>
+            <input type="text" name="shirt" id="shirt" placeholder="Shirt Number">
+
+            <button type="submit" id="buttonEnv">Escalar</button>
+        </div>
+        <hr>
+        <div id="deletePlayer">
+            <h2 id="titleDel">Delete Player</h2>
+            <label for="shirtNum">Player Shirt Number:</label>
+            <input type="text" name="shirtNum" id="shirtNum" placeholder="Player Shirt Number">
+
+            <button type="submit" id="buttonRm">Remover</button>
+        </div>
+        <hr>
+        <div id="rosterList">
+            <h1>Roster List</h1>
+            <ul id="list"></ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
